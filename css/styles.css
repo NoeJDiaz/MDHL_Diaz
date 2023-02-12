@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+background-color: aquamarine;
+}
+
+.banner{
+    background: url("../assets/img/design1_image2.jpg");
+    background-size: cover;
+    height: 140px;
+    background-position: 0px -20px;
+
+}
+
+.titulo>h2{
+    background-color: black;
+    color: white;
+    margin-top: 3px;
+}
+
+.banner>h1{
+    position: fixed;
+    font-weight: bold;
+    text-shadow: 3px 2px 2px white;
+    margin-left: 10px;
+}
+
+.logo{
+    position: absolute;
+    margin-left: 74%;
+    height: 150px;
+    width: 150px;
+    margin-top: -90px;
+
+}
+
+.barra>a {
+    display: block;
+    margin-left: 7px;
+    margin-top: 65px;
+}
+
+section>nav{
+    display: inline-block;
+    margin-top: 37px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+main>aside{
+    display: inline-block;
+    margin-left:197px;
+    top: -365px;
+    position: relative;
+    
+}
+
+.desc>article{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+aside>article>p{
+    margin-left: 20px;
+}
+
+.imagen1, .imagen2, .imagen3{
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px;
+    margin-left: 20px;
+    margin-top: 24px;
+}
+
+.desc2{
+    font-size: 15px;
+    top: -385px;
+    margin-left: 200px;
+}
+
+.desc1{
+    margin-left: 187px;
+    margin-top: -23px;
+    margin-right: 300px;
+    font-size: 15px;
+    
+}
+.contact>p{
+    margin-bottom: 15px;
+}
+
+.about{
+    margin-bottom: 15px;
+}
+.about>p{
+    margin-left: 5px;
+    text-indent: 1.5em;
+}
+
+.about>h2{
+font-size: 16px;
+}
