@@ -1,7 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Coming Soon';
 }
 
 .body{
@@ -11,8 +13,8 @@ background-color: aquamarine;
 .banner{
     background: url("../assets/img/design1_image2.jpg");
     background-size: cover;
-    height: 140px;
-    background-position: 0px -20px;
+    height: 222px;
+    background-position: 0px -62px;
 
 }
 
@@ -23,6 +25,7 @@ background-color: aquamarine;
 }
 
 .banner>h1{
+    backdrop-filter: blur(20px);
     position: fixed;
     font-weight: bold;
     text-shadow: 3px 2px 2px white;
@@ -54,7 +57,7 @@ section>nav{
 main>aside{
     display: inline-block;
     margin-left:197px;
-    top: -365px;
+    top: -582px;
     position: relative;
     
 }
@@ -77,13 +80,13 @@ aside>article>p{
 
 .desc2{
     font-size: 15px;
-    top: -385px;
+    top: -545px;
     margin-left: 200px;
 }
 
 .desc1{
     margin-left: 187px;
-    margin-top: -23px;
+    margin-top: 15px;
     margin-right: 300px;
     font-size: 15px;
     
@@ -102,4 +105,65 @@ aside>article>p{
 
 .about>h2{
 font-size: 16px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    font-size:small;
+    display: flex;
+    flex-direction: column;
+}
+.rules, #tablas{
+    display: grid;
+    margin-left: 50px;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+.rules1{
+    display: flex;
+}
+
+dt{
+    font-weight: bold;
+
+}
+dd{
+    text-indent: 1.5em;
+}
+
+.desc3{
+    display:inline-flex;
+}
+
+
+caption{
+    caption-side: bottom;
+    text-align: right;
+    font-size: 10px;
+    padding: .3rem;
+}
+
+th, td{
+    padding: .5rem;
+}
+.total{
+    text-align: left;
+}
+
+.bands td, tfoot td, th{
+    font-weight: bolder;
+}
+
+tbody tr:nth-child(even){
+    background-color: #F99417;
+}
+
+tbody tr:nth-child(odd), thead tr, tfoot tr{
+    background-color: #E8E2E2;
+}
+
+table{
+    table-layout: auto;
+    border-collapse: separate;
 }
